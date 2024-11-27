@@ -1,3 +1,7 @@
+/*
+	Author : AlexxLJ
+	
+*/
 
 #include <stdio.h>
 #include <stdlib.h> 
