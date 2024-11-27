@@ -1,3 +1,8 @@
+/*
+	Author : AlexxLJ
+	
+*/
+
 
 #include<stdio.h>
 #include<string.h>
@@ -214,7 +219,7 @@ void consult(){
 				for(j = 0; j<10; j++){
 					if(numero == bib[i].known[j].number){
 						
-						   printf ("El número de teléfono es de: %s. \n", bib[i].known[j].name);
+						   printf ("El nÃºmero de telÃ©fono es de: %s. \n", bib[i].known[j].name);
 						   printf ("El contacto %s se encuentra guardado en la lista de %s. \n", bib[i].known[j].name , bib[i].name_owner);
 						   printf("El COMENTARIO del contacto es: %s. \n", bib[i].known[j].COMMENTs);
 						   
@@ -239,7 +244,7 @@ void consult(){
 						aux = strcmp(search,bib[i].known[j].COMMENTs);
 						if (aux == 0){
 							printf ("El contacto cuyo apodo es %s se llama %s. \n", search, bib[i].name_owner);
-							printf ("Su número de teléfono es: %i. \n", bib[i].known[j].number);
+							printf ("Su nÃºmero de telÃ©fono es: %i. \n", bib[i].known[j].number);
 							printf ("El contacto %s se encuentra guardado en la lista de %s. \n", search, bib[i].name_owner);
 							
 						}	
